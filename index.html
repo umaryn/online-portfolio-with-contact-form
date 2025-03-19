@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umar Yahaya Namahe - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Umar Yahaya Namahe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-light text-center py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Add your image here -->
+										<img src="assets\profile.jpg" alt="Umar Yahaya Namahe" class="img-fluid square" width="200">
+                </div>
+                <div class="col-md-6">
+                    <h1>Umar Yahaya Namahe</h1>
+                    <p class="lead">Statistician | Tech Enthusiast</p>
+                    <p>Phone: 07066778028 | Email: uyahaya95@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p class="text-center">
+                I am a passionate statistician with a strong interest in technology. I have experience in data analysis, networking, and web development. I am proficient in MS Excel, MS Word, and Minitab, and I hold several certifications from Cisco Networking Academy.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Education</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>2017-2023:</strong> BSc Statistics, Usmanu Danfodio University Sokoto
+                </li>
+                <li class="list-group-item">
+                    <strong>2022:</strong> Cisco Networking Academy – CCNA Certificates:
+                    <ul>
+                        <li>Introduction to Networks</li>
+                        <li>Switching, Routing, and Wireless Essentials</li>
+                        <li>Enterprise Networking, Security, and Automation</li>
+                    </ul>
+                </li>
+                <li class="list-group-item">
+                    <strong>2019-2020:</strong> Certificate in Computer Studies, Sokoto State Education Development Trust Fund
+                </li>
+                <li class="list-group-item">
+                    <strong>2013-2016:</strong> WAEC and NECO Certificate, Alheri Schools Sokoto
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Experience</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>2023-2024:</strong> Corp Member, National Youth Service (NYSC)
+                </li>
+                <li class="list-group-item">
+                    <strong>2023:</strong> Presiding Officer, Independent National Electoral Commission (INEC)
+                </li>
+                <li class="list-group-item">
+                    <strong>2019-2020:</strong> Industrial Training (4 months), Ministry of Budget and Economic Planning Sokoto
+                </li>
+                <li class="list-group-item">
+                    <strong>2019:</strong> Presiding Officer, Independent National Electoral Commission (INEC)
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">MS Excel</li>
+                        <li class="list-group-item">MS Word</li>
+                        <li class="list-group-item">Minitab</li>
+                        <li class="list-group-item">HTML & CSS</li> <!-- Added HTML & CSS skill -->
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Networking Basics</li>
+                        <li class="list-group-item">Data Analysis</li>
+                        <li class="list-group-item">Responsive Web Design</li> <!-- Added Responsive Web Design skill -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form id="contactForm" action="send_email.php" method="POST">
+							<div class="mb-3">
+									<label for="name" class="form-label">Name</label>
+									<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+							</div>
+							<div class="mb-3">
+									<label for="email" class="form-label">Email</label>
+									<input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+							</div>
+							<div class="mb-3">
+									<label for="message" class="form-label">Message</label>
+									<textarea class="form-control" id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">Send Message</button>
+					</form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Umar Yahaya Namahe. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

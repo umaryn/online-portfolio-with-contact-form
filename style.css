@@ -1,0 +1,85 @@
+/* Custom Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4e1c1; /* Light brown background */
+  color: #5a3a1e; /* Brown text color */
+}
+
+.navbar {
+  background-color: #5a3a1e !important; /* Dark brown navbar */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f4e1c1 !important; /* Light brown text for navbar links */
+}
+
+.navbar-dark .navbar-brand {
+  color: #f4e1c1 !important; /* Light brown text for navbar brand */
+}
+
+#hero {
+  padding: 100px 0;
+  background-color: #f4e1c1; /* Light brown background */
+}
+
+#hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #5a3a1e; /* Brown text color */
+}
+
+#hero p {
+  font-size: 1.2rem;
+  color: #5a3a1e; /* Brown text color */
+}
+
+#about, #education, #experience, #skills, #contact {
+  padding: 60px 0;
+  background-color: #f4e1c1; /* Light brown background */
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #5a3a1e; /* Dark brown footer */
+  color: #f4e1c1; /* Light brown text color */
+  padding: 20px 0;
+}
+
+/* Additional Styles for Form Inputs */
+.form-control {
+  background-color: #fff; /* White background for form inputs */
+  color: #5a3a1e; /* Brown text color */
+  border: 1px solid #5a3a1e; /* Brown border */
+}
+
+.form-control:focus {
+  border-color: #5a3a1e; /* Brown border on focus */
+  box-shadow: 0 0 5px rgba(90, 58, 30, 0.5); /* Brown shadow on focus */
+}
+
+.btn-primary {
+  background-color: #5a3a1e; /* Dark brown button */
+  border-color: #5a3a1e; /* Dark brown border */
+  color: #f4e1c1; /* Light brown text */
+}
+
+.btn-primary:hover {
+  background-color: #3e2a14; /* Darker brown on hover */
+  border-color: #3e2a14; /* Darker brown border on hover */
+}
+
+/* List Group Items */
+.list-group-item {
+  background-color: #f4e1c1; /* Light brown background */
+  color: #5a3a1e; /* Brown text color */
+  border: 1px solid #5a3a1e; /* Brown border */
+}
+
+.list-group-item:hover {
+  background-color: #e0c9a8; /* Slightly darker light brown on hover */
+}
